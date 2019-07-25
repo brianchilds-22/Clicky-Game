@@ -1,10 +1,11 @@
 .wrapper {
-    background: #29339B;
+    background-image: url("https://wallpapercave.com/wp/DO9v47p.jpg");
+    background-size: cover;
     height: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
-    align-content: flex-start;
+    /* justify-content: space-around; */
+    /* align-content: flex-start; */
     overflow: auto;
     padding-bottom: 50px;
   }

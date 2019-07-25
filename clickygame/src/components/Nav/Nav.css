@@ -1,16 +1,18 @@
 nav {
     width: 100%;
-    font-size: 2rem;
+    font-size: 22px;
     color: #CCDBDC;
     margin-bottom: 50px;
-    background-color: #0B132B;
+    background-color: rgb(224, 166, 7);
     height: auto;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
   }
   
   #gameScore, #highScore, #message{
-    font-size: 1rem;
+    font-size: 60px;
     padding-right: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
   #gameScore, #highScore{
@@ -24,6 +26,8 @@ nav {
 
   .header {
     color: #29339B;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
   
