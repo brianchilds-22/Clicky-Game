@@ -15,20 +15,6 @@ const Nav = props => (
       <li id="highScore">Top Score: {props.highScore}</li>
     </ul>
   </nav>
-
-
-
-
-
-
-
-
-
-    );
-    
-    
-    
-    
-    
+);
     
 export default Nav;

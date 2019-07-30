@@ -62,15 +62,22 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Nav
-          title="Beer Can Clicky Game"
-          score={this.state.currentScore}
-          highScore={this.state.highScore}
-          message={this.state.message}
-        />
 
         <Title>
-        Click on an image to earn points, but don't click on any more than once!
+        Beer Can Clicky Game
+        
+        </Title>
+       
+        <Nav
+          score={this.state.currentScore}
+          highScore={this.state.highScore}
+        />
+        <Title>
+        <h3 className="navMessage">
+        {this.state.message}
+        </h3>
+        Click on a Beer to score points, but don't click the same Beer twice
+        you might spill!!
         </Title>
             {this.state.characters.map(character => (
                 <CharacterCard
