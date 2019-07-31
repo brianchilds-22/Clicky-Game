@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import CharacterCard from "./components/CharacterCard";
+import CharacterCard from "./components/Character-Card";
 import Nav from "./components/Nav";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
@@ -36,7 +36,7 @@ class App extends Component {
     const newScore = this.state.currentScore + 1;
     this.setState({
       currentScore: newScore,
-      message: "Cool. CoolCoolCool. You guessed right!"
+      message: "You Guessed Right, Have Another!!"
     });
     if (newScore >= this.state.highScore) {
       this.setState({ highScore: newScore });
@@ -48,7 +48,7 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       highScore: this.state.highScore,
-      message: "Brittastrophe! That's not right!",
+      message: "Have You Been Drinking?",
       clicked: []
     });
     this.handleShuffle();
@@ -62,15 +62,22 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Nav
-          title="Community Clicky Game"
-          score={this.state.currentScore}
-          highScore={this.state.highScore}
-          message={this.state.message}
-        />
 
         <Title>
-        Click on an image to earn points, but don't click on any more than once!
+        Beer Can Clicky Game
+        
+        </Title>
+       
+        <Nav
+          score={this.state.currentScore}
+          highScore={this.state.highScore}
+        />
+        <Title>
+        <h3 className="navMessage">
+        {this.state.message}
+        </h3>
+        Click on a Beer to score points, but don't click the same beer twice
+        you might spill!!
         </Title>
             {this.state.characters.map(character => (
                 <CharacterCard
