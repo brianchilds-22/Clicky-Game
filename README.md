@@ -19,3 +19,5 @@ A memory game created with React.
  * Title - displays messages
  * Wrapper - wraps around everything
 
+ Deployed to github 
+
