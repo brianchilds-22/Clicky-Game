@@ -1,8 +1,9 @@
 # Beer Can Clicky-Game
 A memory game created with React.
 
+![Beer Can Clicky Game](https://drive.google.com/file/d/1yhaiH8SCa912aDYtbHO5cBG8vyiMxHo8/view)
+
 ## Intial Setup
-I created the index files. 
 * Index.html - this file links to bootstrap CDNs and has the root div.
 * Index.js - Imports react, reactDOM, the App file and renders it to the index.html
 * Index.css - styles the html
