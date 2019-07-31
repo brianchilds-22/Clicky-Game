@@ -1,7 +1,7 @@
 # Beer Can Clicky-Game
 A memory game created with React.
 
-![Beer Can Clicky Game](https://drive.google.com/file/d/1yhaiH8SCa912aDYtbHO5cBG8vyiMxHo8/view)
+![Beer Can Clicky Game](Clicky-Game.gif)
 
 ## Intial Setup
 * Index.html - this file links to bootstrap CDNs and has the root div.
